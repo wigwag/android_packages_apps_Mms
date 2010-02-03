@@ -218,8 +218,8 @@ public class ComposeMessageActivity extends Activity
     private Conversation mConversation;     // Conversation we are working in
 
     private boolean mExitOnSent;            // Should we finish() after sending a message?
-    private boolean mBlackBackground;	    // Changes Background to black :)
-
+    private boolean mBlackBackground;		// Black background invert
+    
     private View mTopPanel;                 // View containing the recipient and subject editors
     private View mBottomPanel;              // View containing the text editor, send button, ec.
     private EditText mTextEditor;           // Text editor to type your message into

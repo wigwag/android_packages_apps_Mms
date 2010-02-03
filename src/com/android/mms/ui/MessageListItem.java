@@ -31,6 +31,7 @@ import android.graphics.drawable.Drawable;
 import android.net.Uri;
 import android.os.Handler;
 import android.os.Message;
+import android.preference.PreferenceManager;
 import android.provider.Browser;
 import android.provider.Telephony.Mms;
 import android.provider.Telephony.MmsSms;
@@ -479,7 +480,7 @@ public class MessageListItem extends LinearLayout implements
             	if(!mBlackBackground) {
             		mMsgListItem.setBackgroundResource(R.drawable.listitem_background);
             	} else {
-            		mMsgListItem.setBackgroundResource(R.drawable.listitem_background_black);
+            		mMsgListItem.setBackgroundResource(R.drawable.litsitem_background_black);
             	}
                 break;
 
@@ -487,7 +488,7 @@ public class MessageListItem extends LinearLayout implements
             	if(!mBlackBackground) {
             		mMsgListItem.setBackgroundResource(R.drawable.listitem_background);
             	} else {
-            		mMsgListItem.setBackgroundResource(R.drawable.listitem_background_black);
+            		mMsgListItem.setBackgroundResource(R.drawable.litsitem_background_black);
             	}
                 break;
         }
